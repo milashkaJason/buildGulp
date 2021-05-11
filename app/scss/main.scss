@@ -1,6 +1,20 @@
-// Содержимое файла main.scss
+@import "../fonts/glober.css";
+@import '../reset_css/reset.css';
+@import "variables/variables.css";
+@import "header/header";
+
+
+
+
+
 body {
-  // display: none
-  display: grid;
-  color: red;
+  font-family: Glober;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white);
+  background: var(--black);
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }

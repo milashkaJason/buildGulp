@@ -1,11 +1,11 @@
 {
-  "name": "carousel",
+  "name": "sun_leo_crm",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alexandr Vagulis",
+  "author": "Olga Vagulis",
   "license": "ISC",
   "description": "",
   "devDependencies": {
@@ -22,6 +22,6 @@
     "gulp-uglify-es": "^2.0.0"
   },
   "dependencies": {
-
+    "gulp-scss": "^1.4.0"
   }
 }
