@@ -68,6 +68,10 @@ select {
     font: inherit;
     outline: none;
     background: transparent;
+    color: inherit;
+    padding: 0;
+    display: block;
+    border: 0;
 }
 
 a {
@@ -79,4 +83,5 @@ a {
 }
 button {
     cursor: pointer;
+    border: none;
 }

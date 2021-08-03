@@ -1,20 +1,13 @@
-@import "../fonts/glober.css";
-@import '../reset_css/reset.css';
-@import "variables/variables.css";
-@import "header/header";
-
-
-
-
+@import "../fonts/gilroy";
+@import '../reset_css/reset';
+@import "variables/variables";
+@import "index/index.scss";
 
 body {
-  font-family: Glober;
+  font-family: Gilroy, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: var(--white);
-  background: var(--black);
+  color: var(--example);
+  background: var(--example);
 }
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
+
